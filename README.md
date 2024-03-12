@@ -2,7 +2,6 @@
 
 This study investigates the efficacy of incorporating AI-generated images as supplementary data in emotion-recognizing Convolutional Neural Networks. Emotion recognition is a critical task in various applications such as human-computer interaction and affective computing. However, limited labeled data availability often hinders the performance of deep learning models. To address this challenge, we explore the use of stable diffusion, a generative model capable of synthesizing high-quality images, to augment existing datasets.
 
-
 [Study](Synthetic_Data.pdf)
 
 ## Install & Run
@@ -33,6 +32,9 @@ Next: get [PyTorch](https://pytorch.org/get-started/locally/) & [Cuda](https://d
   pip install matplotlib, torch, numpy
 ```
 
+### Used Base Dataset
+
+[Dataset](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)
 
 ## Author
 
